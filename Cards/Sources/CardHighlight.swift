@@ -107,7 +107,7 @@ import UIKit
         backgroundIV.addSubview(titleLbl)
         backgroundIV.addSubview(itemTitleLbl)
         backgroundIV.addSubview(itemSubtitleLbl)
-        backgroundIV.addSubview(actionBtn)
+//        backgroundIV.addSubview(actionBtn)
 
         if backgroundImage == nil {  backgroundIV.addSubview(bgIconIV); }
         else { bgIconIV.alpha = 0 }
